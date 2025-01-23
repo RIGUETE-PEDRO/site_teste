@@ -1,0 +1,96 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow:hidden;
+}
+
+.conteiner
+{
+    width: 100vw;
+    height: 100vw;
+    background-image: url(/img/weather-scenarios-collage-dbk9c5n23l7e5fgb.jpg);
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-repeat:no-repeat ;
+    overflow: hidden;
+    
+}
+.box
+{ 
+    width: 300px;
+    height: 400px;
+    background-color:transparent;
+    position: relative;
+    margin-top: -700px;
+    background-color: rgba(0, 0, 0,0.7) ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    border-radius: 11px;
+    line-height: 0;
+}
+
+.text
+{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:xx-large;
+   color: rgb(238, 238, 238);
+   text-align: center;
+   
+   
+}
+
+.login
+{
+    color: aliceblue;
+   
+}
+.button_entrar
+{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: red;
+    color: aliceblue;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.button_cadastrar
+{
+    display: inline-block; /* Faz o botão se comportar como um bloco */
+    margin: 0 0; /* Aplica margem automática nas laterais */
+    padding: 15px 20px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-conteiner
+{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.input
+{
+    padding: 15px 20px;
+    background-color: transparent;
+    background-color: rgba(231, 231, 231, 0.356) ;
+    border-radius: 30px;
+    color:white;
+    
+}
